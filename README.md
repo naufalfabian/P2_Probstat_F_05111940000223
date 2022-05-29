@@ -106,7 +106,7 @@ Untuk uji ANOVA (satu arah), buatlah model linier dengan Panjang versus Grup dan
 ![Screenshot 2022-05-29 214554](https://user-images.githubusercontent.com/85657973/170875447-d86123b5-e11f-4c13-b561-27fc28e85eed.png)
 
 - D.
-- 
+
 Dari Hasil Poin C , Berapakah nilai-p ? , Apa yang dapat Anda simpulkan dari H0?
 
 Nilai p adalah 0.0013 yang dimana < 0.05. Kesimpulannya hipotesis nol ditolak.
