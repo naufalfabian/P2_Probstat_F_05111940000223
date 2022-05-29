@@ -58,27 +58,43 @@ Dapat disimpulkan bahwa mobil dikemudikan rata rata lebih dari 20.000 Kilometer 
 
 H0 dan H1
 
+H0 = ( μ1 =  μ2) H1= ( μ1 !=  μ2)
+
 - B.
 
 Hitung Sampel Statistik
 
+Menggunakan `tsum.test()`
+
+![Screenshot 2022-05-29 224820](https://user-images.githubusercontent.com/85657973/170878540-62371acf-958a-4654-bbfc-9740b2cc57f9.png)
 
 - C.
 
 Lakukan Uji Statistik (df =2)
 
+Menggunakan `plotDist()`
+
+![Screenshot 2022-05-29 225015](https://user-images.githubusercontent.com/85657973/170878677-03ce28ff-b12e-44c5-a0c1-67d007c07429.png)
+
 - D.
 
 Nilai Kritikal
+
+![Screenshot 2022-05-29 225151](https://user-images.githubusercontent.com/85657973/170878751-9435e126-528e-494e-9431-2bf6f824c51b.png)
+
 
 - E.
 
 Keputusan
 
+Dikarenakan nilai p < a, Maka Hipotesis awal ditolak.
+
 
 - F.
 
 Kesimpulan
+
+Tidak terdapat perbedaan rata-rata pada perusahaan di Bandung dan Bali.
 
 
 ## No 4
