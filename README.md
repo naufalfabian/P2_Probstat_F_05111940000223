@@ -95,20 +95,41 @@ Mencari homogenity of variances menggunakan `bartlett.test()`
 
 ![Screenshot 2022-05-29 212829](https://user-images.githubusercontent.com/85657973/170874525-0969bb49-1554-4177-84fa-5cedd512a986.png)
 
-p-value dari bartlett.test 0.8054.Kesimpulannya variance dari ketiga grup mirip
+Nilai p dari bartlett.test 0.8054. Kesimpulannya variance dari ketiga grup mirip
 
 - C.
 
 Untuk uji ANOVA (satu arah), buatlah model linier dengan Panjang versus Grup dan beri nama model tersebut model 1.
 
 ![Screenshot 2022-05-29 214114](https://user-images.githubusercontent.com/85657973/170875442-768b350e-d90f-4c89-9311-011098a53538.png)
+
 ![Screenshot 2022-05-29 214554](https://user-images.githubusercontent.com/85657973/170875447-d86123b5-e11f-4c13-b561-27fc28e85eed.png)
 
-
-
 - D.
+- 
+Dari Hasil Poin C , Berapakah nilai-p ? , Apa yang dapat Anda simpulkan dari H0?
+
+Nilai p adalah 0.0013 yang dimana < 0.05. Kesimpulannya hipotesis nol ditolak.
+
 - E.
+
+Verifikasilah jawaban model 1 dengan Post-hoc test Tukey HSD, dari nilai pyang didapatkan apakah satu jenis kucing lebih panjang dari yang lain?
+
+Memverifikasi dengan menggunakan `TurkeyHSD()`
+
+![Screenshot 2022-05-29 215744](https://user-images.githubusercontent.com/85657973/170876010-f7bb3514-8206-4f93-95c8-36e4d543fa21.png)
+
 - F.
+
+Visualisasikan data dengan ggplot2
+
+Memvisualisasi dengan menggunakan `ggplot2`
+
+![Screenshot 2022-05-29 215910](https://user-images.githubusercontent.com/85657973/170876152-e2bd2c8b-ec22-4f88-b299-9a25f287aaaf.png)
+
+![Screenshot 2022-05-29 220226](https://user-images.githubusercontent.com/85657973/170876227-f10bbd0e-e000-4ae7-8134-0455fe7f01e4.png)
+
+
 
 ## No 5
 
