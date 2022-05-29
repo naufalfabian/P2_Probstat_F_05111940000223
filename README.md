@@ -55,8 +55,31 @@ Dapat disimpulkan bahwa mobil dikemudikan rata rata lebih dari 20.000 Kilometer 
 ## No 3
 
 - A.
+
+H0 dan H1
+
 - B.
+
+Hitung Sampel Statistik
+
+
 - C.
+
+Lakukan Uji Statistik (df =2)
+
+- D.
+
+Nilai Kritikal
+
+- E.
+
+Keputusan
+
+
+- F.
+
+Kesimpulan
+
 
 ## No 4
 
@@ -115,7 +138,7 @@ Nilai p adalah 0.0013 yang dimana < 0.05. Kesimpulannya hipotesis nol ditolak.
 
 Verifikasilah jawaban model 1 dengan Post-hoc test Tukey HSD, dari nilai pyang didapatkan apakah satu jenis kucing lebih panjang dari yang lain?
 
-Memverifikasi dengan menggunakan `TurkeyHSD()`
+Memverifikasi dengan menggunakan `TukeyHSD()`
 
 ![Screenshot 2022-05-29 215744](https://user-images.githubusercontent.com/85657973/170876010-f7bb3514-8206-4f93-95c8-36e4d543fa21.png)
 
@@ -130,13 +153,61 @@ Memvisualisasi dengan menggunakan `ggplot2`
 ![Screenshot 2022-05-29 220226](https://user-images.githubusercontent.com/85657973/170876227-f10bbd0e-e000-4ae7-8134-0455fe7f01e4.png)
 
 
-
 ## No 5
 
 - A.
+
+Buatlah plot sederhana untuk visualisasi data
+
+Import data
+
+![Screenshot 2022-05-29 222200](https://user-images.githubusercontent.com/85657973/170877198-0e048cf0-3e8d-4e90-9d3e-e11329fa12c7.png)
+
+![Screenshot 2022-05-29 222214](https://user-images.githubusercontent.com/85657973/170877204-ab7b319e-f7de-4baa-9645-f70ad18145b8.png)
+
+Plotting
+
+![Screenshot 2022-05-29 222356](https://user-images.githubusercontent.com/85657973/170877350-167a3975-7a02-4ba1-8d2f-fac5ab9fe6a5.png)
+
+![Screenshot 2022-05-29 222457](https://user-images.githubusercontent.com/85657973/170877374-a849b7dd-359f-43f3-8965-f7d403911ac5.png)
+
 - B.
+
+ Lakukan uji ANOVA dua arah
+ 
+ Variable Faktor ANOVA
+ 
+ ![Screenshot 2022-05-29 222734](https://user-images.githubusercontent.com/85657973/170877578-a9e8179e-9423-439b-90ff-4a13e9368428.png)
+ 
+ Melakukan analisa varian dengan menggunakan `aov()`
+ 
+ ![Screenshot 2022-05-29 223034](https://user-images.githubusercontent.com/85657973/170877620-c3986d70-56e0-4245-9a88-59b3470520e0.png)
+
 - C.
+
+Tampilkan tabel dengan mean dan standar deviasi keluaran cahaya untuk setiap perlakuan (kombinasi kaca pelat muka dan suhu operasi)
+
+![Screenshot 2022-05-29 223143](https://user-images.githubusercontent.com/85657973/170877733-64074629-06bb-43ab-9b6b-ccfe3630d397.png)
+
+
 - D.
+
+Lakukan uji Tukey
+
+Menggunakan `TukeyHSD`
+
+![Screenshot 2022-05-29 223634](https://user-images.githubusercontent.com/85657973/170877899-dae3b8a4-cff3-4700-95a5-5f99a037a5c9.png)
+
+
 - E.
 
+Gunakan compact letter display untuk menunjukkan perbedaan signifikan antara uji Anova dan uji Tukey
+
+Menggunakan `multcompLetter4()`
+
+![Screenshot 2022-05-29 223922](https://user-images.githubusercontent.com/85657973/170878152-f859cede-2de9-46b8-a854-18b75d762828.png)
+
+hasil compact letter ke tabel dengan mean dan standar deviasi
+
+![Screenshot 2022-05-29 223941](https://user-images.githubusercontent.com/85657973/170878159-04d344ba-a302-4b30-8272-f77b0c23b01b.png)
 
