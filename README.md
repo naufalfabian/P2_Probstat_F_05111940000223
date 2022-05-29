@@ -6,6 +6,7 @@ Naufal Fabian W 05111940000223  Probabilitas dan Statistika F
 ## No 1
 
 - A.
+
 Carilah Standar Deviasi dari data selisih pasangan pengamatan tabel diatas.
 
 mencari standar deviasi dari selisih data pada tabel dengan `sd`
@@ -13,6 +14,7 @@ mencari standar deviasi dari selisih data pada tabel dengan `sd`
 
 
 - B.
+
 carilah nilai t (p-value)
 
 mencari nilai t(p-value) dengan `t.test`
@@ -20,6 +22,7 @@ mencari nilai t(p-value) dengan `t.test`
 nilai t = 7.6525
 
 - C.
+
 tentukanlah apakah terdapat pengaruh yang signifikan secara statistika dalam hal kadar saturasi oksigen , sebelum dan sesudah melakukan aktivitas 𝐴 jika diketahui tingkat signifikansi 𝛼 = 5% serta H0 : “tidak ada pengaruh yang signifikan secara statistika dalam hal kadar saturasi oksigen , sebelum dan sesudah melakukan aktivitas 𝐴”
 
 Hipotesis nol ditolak , Hipotesis alternatif diterima. terdapat pengaruh yang signifikan secara statistika dalam hal kadar saturasi oksigen , sebelum dan sesudah mengkonsumsi obat A pada tingkat signifikasi 5%.
@@ -28,11 +31,13 @@ Hipotesis nol ditolak , Hipotesis alternatif diterima. terdapat pengaruh yang si
 ## No 2
 
 - A.
+
 Apakah Anda setuju dengan klaim tersebut?
 
 Setuju
 
 - B.
+
 Jelaskan maksud dari output yang dihasilkan
 
 mencari output dengan `zsum.test()`
@@ -41,6 +46,7 @@ mencari output dengan `zsum.test()`
 ![Screenshot 2022-05-29 183045](https://user-images.githubusercontent.com/85657973/170865753-61529c32-d0e5-4f7c-9779-586aa6e13137.png)
 
 - C.
+
 Buatlah kesimpulan berdasarkan P-Value yang dihasilkan!
 
 Setelah dihitung, didapat bahwa z = 8.97 , μ > 20, 000 kilometers ,  dan P-value < 0.001.
