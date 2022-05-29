@@ -36,6 +36,7 @@ Setuju
 Jelaskan maksud dari output yang dihasilkan
 
 mencari output dengan `zsum.test()`
+
 ![Screenshot 2022-05-29 183032](https://user-images.githubusercontent.com/85657973/170865748-72f545d2-f7ed-464b-8ef2-f1f10d7bfbb5.png)
 ![Screenshot 2022-05-29 183045](https://user-images.githubusercontent.com/85657973/170865753-61529c32-d0e5-4f7c-9779-586aa6e13137.png)
 
